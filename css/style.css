@@ -1,0 +1,226 @@
+:root{
+    --theme-color: #21b573;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/*================================================================================*/
+.banner-section {
+height: 590px;
+left: 0px;
+top: 0px;
+background: #F0FFF0;}
+header{
+    padding: 20px 0;
+}
+.info-box{
+    display: flex;
+}
+.info-box p {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 24.8571px;
+    line-height: 29px;
+    color: #56548C;
+    padding: 15px 16px 5px;
+}
+.btn-custom {
+    background: var(--theme-color);
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 6px 26px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    padding-right: 45px;
+}
+
+/*=====================
+==========================*/
+.banner-content {
+    width: 50%;
+    padding-top: 72px;
+}
+.banner-content h1 {
+    padding: 0px 150px 0px 0px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+.banner-content h5 {
+    color: #FD511A;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.banner-content span{
+    color: #21b573;
+}
+.banner-content p{
+width: 403px;
+height: 85px;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 16px;
+line-height: 36px;
+padding: 0px 78px 0px 0px;
+}
+.banner-content a {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    background: #21B573;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 33px;
+    text-decoration: none;
+}
+.banner-images {
+    width: 50%;
+    padding-top: 50px;
+}
+
+/*===============================feature-section=========
+================================*/
+.feature-section {
+    padding: 35px 130px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: 25%;
+    padding: 15px;
+}
+.feature {
+    background: #f0fff05e;
+    text-align: center;
+    padding: 45px 30px;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+}
+.feature:hover{
+    box-shadow: 0px 10px 40px 0px #00000012;
+    background: white;
+}
+.feature img{
+    height: 75px;
+}
+.feature h3{
+    font-size: 20px;
+    color: #413960;
+    margin: 5px 0px;margin-top: 15px;}
+.feature p{
+    font-size: 16px;
+    margin: 0;
+}
+/*==========================end=========================*/
+
+
+/*=======================courses-section=========
+================================================*/
+.courses-section{
+    padding: 0px 145px;
+}
+.heading{
+    text-align: center;
+    
+    margin-bottom: 30px;
+}
+.heading h2{
+    font-size: 40px;
+    line-height: 1;
+}
+.coures{
+    box-shadow: 0px 10px 40px 0px #00000012;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.col-3{
+width: 33.33%;
+padding: 15px;
+}
+.coures img {
+    width: 340px;
+    height: 250px;
+}
+.coures h3{
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #413960;
+padding-top: 15px;}
+.coures span{
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+color: #585859;
+margin-bottom: 20px;
+display: block;
+}
+.coures a{
+    padding: 8px 25px;
+    background: #21B573;
+    text-decoration: none;
+}
+.coures ul{
+    padding: 0px 0px;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.coures ul li{
+font-size: 13px;
+display: block;
+padding-left: 0px;
+}
+.coures ul li i{
+    padding-left: 3px;
+}
+/*=============================end=======================*/
+
+/*==================================Testimonial- section=====================
+===============================================================================*/
+.Testimonial-section{padding: 50px 0;}
+.client-img{width: 20%;padding: 50px;}
+.client-img img{}
+.client-content{width: 49%;padding: 15px;}
+.client-content p{font-size: 15px;line-height: 1.5;}
+.Testimonial-section .flex{
+    justify-content: center;
+align-items: center;}
+
+/*=======================================Testimonial-sectionn-end=================
+==================================================================================*/
+
+/************************footer-section************************/
+footer{background: #282531;padding: 40px;}
+footer p{color: #fff;font-size: 15px;}  
+footer ul{}
+footer ul li{}
+footer ul li strong{color: white;font-size: 20px;}
+footer ul li a{color: #fff;font-size: 15px;padding: 3px 0;display: block;}
+footer ul li a:hover{}
+.copyright{padding: 30px 0 10px;text-align: center;font-size: 15px;font-weight: 500;color: aqua;}
+.copyright a{}
+.copyright a:hover
+/*************************footer-section-end*****************/
